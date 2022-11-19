@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Programize</title>
+    <link href="./images/logo.png" type="image/x-icon" rel="icon" />
+    <link href="./styles.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <div class="logobox">
+        <img src="./images/logo.png" alt="logo" class="logo" />
+      </div>
+      <nav class="navbox">
+        <a href="#about">About Us &nbsp;</a>
+        <a href="#courses">Courses &nbsp;</a>
+        <a href="#challenges">Challenges &nbsp;</a>
+        <a href="#codeditor">Code Editor</a>
+      </nav>
+      <div class="loginbox">
+        <button onclick="show()" id="joinusss">Join Us</button>
+      </div>
+      <h4 id="name1"></h4>
+    </header>
+    <div class="slider">
+      <div class="login-box" id="joinus">
+        <div class="inner">
+          <b><h1 style="margin-left: 50px">Join Us</h1></b>
+          <h3 style="margin-left: 50px">Full Name</h3>
+          <input
+            type="text"
+            id="fullname"
+            name="name"
+            placeholder="Full Name"
+            style="
+              width: 300px;
+              height: 25px;
+              border-radius: 5px;
+              margin-left: 50px;
+              text-align: center;
+            "
+          />
+          <h3 style="margin-left: 50px">Email</h3>
+          <input
+            type="email"
+            placeholder="Email"
+            style="
+              width: 300px;
+              height: 25px;
+              border-radius: 5px;
+              text-align: center;
+              margin-left: 50px;
+            "
+          />
+          <h3 style="margin-left: 50px">Password</h3>
+          <input
+            type="password"
+            placeholder="Password"
+            style="
+              width: 300px;
+              height: 25px;
+              border-radius: 5px;
+              text-align: center;
+              margin-left: 50px;
+            "
+          />
+          <br />
+          <a class="my-button" href="#" onclick="addOrder()">Submit</a>
+        </div>
+      </div>
+      <div class="slides">
+        <b><h1 id="about">About Us</h1></b>
+        <b
+          ><p class="aboutus">
+            There is nothing more important to us than to help beginners and
+            <br />intermediates learn programming in a clear, concise, and
+            educational <br />manner in order to be able to ultimately become a
+            proficient programmers.
+          </p></b
+        >
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <div class="slide first">
+          <img src="./images/Programming-Hero_Web_0.jpg" alt="" />
+        </div>
+        <div class="slide">
+          <img
+            src="./images/Is-Computer-Science-the-Same-as-Programming-1024x683.jpg"
+            alt=""
+          />
+        </div>
+        <div class="slide">
+          <img src="./images/computer_programming.jpeg.jpg" alt="" />
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn-1"></div>
+          <div class="auto-btn-2"></div>
+          <div class="auto-btn-3"></div>
+        </div>
+      </div>
+      <div class="navigation-mannual">
+        <label for="radio1" class="mannual-btn"></label>
+        <label for="radio2" class="mannual-btn"></label>
+        <label for="radio3" class="mannual-btn"></label>
+      </div>
+    </div>
+    <div class="course">
+      <h1 id="courses">Courses</h1>
+      <div class="container">
+        <div class="reveal">
+          <div class="box">
+            <div class="title">
+              <h2>Python</h2>
+            </div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+              width="70px"
+              height="70px"
+            />
+            <h6>
+              The python language is one of the most accessible programming
+              languages because it has simplified syntax and not complicated.
+            </h6>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="box">
+            <div class="title">
+              <h2>Java</h2>
+            </div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              width="80px"
+              height="80px"
+              class="java"
+            />
+            <h6>
+              Java is simple and It is attributed with better memory management
+              and additional features such as garbage collection.
+            </h6>
+          </div>
+        </div>
+        <div class="reveal">
+          <div class="box">
+            <div class="title">
+              <h2>Swift</h2>
+            </div>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732250.png"
+              width="70px"
+              height="70px"
+            />
+            <h6>
+              Swift is also built to be nice to write, with a pleasant and clean
+              syntax and modern features and types.
+            </h6>
+          </div>
+        </div>
+        <button class="check" onclick="button1()">Check Out More</button>
+      </div>
+    </div>
+    <div class="challeng">
+      <h1 id="challenges">Challenges</h1>
+      <div class="container">
+        <div class="reveal fade-left">
+          <div class="box2">
+            <br />
+            <img
+              src="./images/coding-challenge.png"
+              alt="hour of code"
+              width="100px"
+              height="100px"
+            />
+            <h2>Hour of Code</h2>
+          </div>
+        </div>
+        <div class="reveal fade-left">
+          <div class="box2">
+            <br />
+            <img
+              src="./images/coderbyte.png"
+              alt="Coderbyte"
+              width="100px"
+              height="100px"
+            />
+            <h2>Coderbyte</h2>
+          </div>
+        </div>
+        <div class="reveal fade-left">
+          <div class="box2">
+            <br />
+            <img
+              src="./images/HackerRank_logo.png"
+              alt="HackerRank"
+              width="100px"
+              height="100px"
+            />
+            <h2>HackerRank</h2>
+          </div>
+        </div>
+        <div class="reveal fade-left">
+          <div class="box2">
+            <br />
+            <img
+              src="./images/exercism-logo.png"
+              alt="Exercism"
+              width="100px"
+              height="100px"
+            />
+            <h2>Exercism</h2>
+          </div>
+        </div>
+        <button style="margin-top: 400px">View All</button>
+      </div>
+    </div>
+    <div class="codeeditor">
+      <h1 id="codeditor">Best Code Editor</h1>
+      <a href="https://code.visualstudio.com/">
+        <img
+          src="./images/Visual_Studio_Code_1.35_icon.svg.png"
+          width="80px"
+          style="margin-left: 1000px"
+        />
+      </a>
+      <br />
+      <a href="https://visualstudio.microsoft.com/">
+        <img
+          src="./images/Visual_Studio_Icon_2019.svg.png"
+          width="80px"
+          style="margin-left: 1000px"
+        />
+      </a>
+      <p class="cod">
+        In the case of programming, developers are always advised <br />to use
+        Visual Studio Code/Visual Studio as a code editor due to the fact<br />
+        that it is an extremely powerful but easy-to-use piece of software.
+      </p>
+    </div>
+    <div class="connect">
+      <div class="reveal">
+        <h1 style="text-align: center; margin-top: 40px">Connect With Us</h1>
+      </div>
+      <div class="reveal fade-left">
+        <h4>First Name</h4>
+        <input
+          type="text"
+          placeholder="First Name"
+          style="
+            width: 300px;
+            display: inline;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+          "
+        />
+      </div>
+      <div class="reveal fade-right">
+        <h4>Last Name</h4>
+        <input
+          type="text"
+          placeholder="Last Name"
+          style="
+            width: 300px;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+          "
+        />
+      </div>
+      <div class="reveal fade-left">
+        <h4>Email</h4>
+        <input
+          type="email"
+          placeholder="Email"
+          style="
+            width: 300px;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+          "
+        />
+      </div>
+      <div class="reveal fade-right">
+        <h4>Message</h4>
+        <input
+          type="text"
+          placeholder="Message"
+          style="
+            width: 300px;
+            height: 80px;
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+          "
+        />
+      </div>
+      <button
+        style="
+          color: black;
+          border-color: black;
+          margin-top: 700px;
+          margin-right: 208px;
+        "
+      >
+        Submit
+      </button>
+    </div>
+    <br />
+    <footer>Made By: Sama Osama</footer>
+    <script src="./j.js"></script>
+  </body>
+</html>

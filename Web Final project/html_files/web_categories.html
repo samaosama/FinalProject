@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contents</title>
+    <link href="/images/logo.png" type="image/x-icon" rel="icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css_files/style1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="sidebar close">
+      <ul class="nav-links">
+        <ul class="sub-menu blank">
+          <li>
+            <div class="iocn-link">
+              <a href="#courses" onclick="course()">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2468/2468081.png"
+                  class="pic"
+                />
+                <span class="link_name" id="courses-button">Courses</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Courses</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">C</a></li>
+              <li><a href="#">C++</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Game Development</a></li>
+              <li><a href="#">Swift</a></li>
+              <li><a href="#">Flutter</a></li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <a href="#challenges" onclick="challenges()">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/6745/6745230.png"
+                alt=""
+                class="pic"
+              />
+              <span class="link_name">Challenges</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#challenges">Challenges</a></li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/4547/4547224.png"
+                alt=""
+                class="pic"
+              />
+              <span class="link_name">Code Editors</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li>
+                <a class="link_name" href="#" onclick="codeeditor()"
+                  >Code Editors</a
+                >
+              </li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2859/2859706.png"
+                  alt=""
+                  class="pic"
+                />
+                <span class="link_name">Videos</span>
+              </a>
+              <i class="bx bxs-chevron-down arrow"></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Videos</a></li>
+              <li><a href="#">Python</a></li>
+              <li><a href="#">Java</a></li>
+              <li><a href="#">C</a></li>
+              <li><a href="#">C#</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Game Development</a></li>
+              <li><a href="#">Flutter</a></li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/751/751432.png"
+                alt=""
+                class="pic"
+              />
+              <span class="link_name">Resources</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Resources</a></li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <a href="#">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/2950/2950657.png"
+                alt=""
+                class="pic"
+              />
+              <span class="link_name">Chat</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Chat</a></li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class="bx bx-menu"></i>
+      </div>
+      <br />
+      <div class="container_courses" id="container_course">
+        <div id="title">
+          <h1 style="display: block">Courses</h1>
+        </div>
+        <hr />
+        <div class="course" id="course-box">
+          <div class="coursenames" id="pythoncourse" onclick="mybutton1()">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+          <div class="coursenames2" id="javacourse">
+            <h2>Soon</h2>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+          <div class="coursenames2" id="ccourse">
+            <h2>Soon</h2>
+
+            <img
+              src="/images/c-programming-language-icon-png-favpng-878WK0RF2zxn7b6TimT7zquZN-removebg-preview.png"
+              width="77px"
+              height="77px"
+            />
+          </div>
+          <div class="coursenames2" id="c++course">
+            <h2>Soon</h2>
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+        </div>
+        <br />
+        <div class="course" id="course-box2">
+          <div class="coursenames2" id="webcourse">
+            <h2>Soon</h2>
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1927/1927768.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+          <div class="coursenames2" id="gamecourse">
+            <h2>Soon</h2>
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1324/1324921.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+          <div class="coursenames2" id="swiftcourse">
+            <h2>Soon</h2>
+
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/732/732250.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+          <div class="coursenames2" id="fluttercourse">
+            <h2>Soon</h2>
+
+            <img
+              src="/images/1_5-aoK8IBmXve5whBQM90GA.png"
+              width="70px"
+              height="70px"
+            />
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="challenges-box" id="challengs-box">
+        <div id="title">
+          <h1 style="display: block">Challenges</h1>
+        </div>
+        <hr />
+        <div class="course" id="course-box">
+          <div class="circle-challenge" id="hourofcode" onclick="mybutton2()">
+            <h5 style="color: white">Hour Of Code</h5>
+            <img
+              src="/images/coding-challenge.png"
+              alt="hour of code"
+              width="90px"
+              height="90px"
+            />
+          </div>
+          <div class="circle-challenge" id="coderbyte" onclick="mybutton3()">
+            <h5 style="color: white">Coderbyte</h5>
+            <img
+              src="/images/coderbyte.png"
+              alt="hour of code"
+              width="90px"
+              height="90px"
+            />
+          </div>
+          <div class="circle-challenge" id="hackerrank" onclick="mybutton4()">
+            <h5 style="color: white">HackerRank</h5>
+            <img
+              src="/images/HackerRank_logo.png"
+              alt="hour of code"
+              width="90px"
+              height="90px"
+            />
+          </div>
+          <div class="circle-challenge" id="exercism" onclick="mybutton5()">
+            <h5 style="color: white">Exercism</h5>
+            <img
+              src="/images/exercism-logo.png"
+              alt="hour of code"
+              width="90px"
+              height="90px"
+            />
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <center><h1>Coming Soon!</h1></center>
+      </div>
+      <hr />
+      <br />
+      <div class="codeeditor-box" id="codeeditor-box">
+        <div id="title">
+          <h1 style="display: block">Code Editors</h1>
+        </div>
+        <hr />
+        <div class="container-resources" id="container-resources">
+          <div class="resources">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <img
+                    src="/images/Visual_Studio_Code_1.35_icon.svg.png"
+                    class="imggg"
+                    style="margin-left: 60px"
+                  />
+                  <h3 class="h333">Visual Studio Code</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p class="ppp">
+                    Visual Studio Code is a code editor redefined and optimized
+                    for building and debugging modern web and cloud
+                    applications.
+                  </p>
+                  <a href="https://code.visualstudio.com/" class="aaa"
+                    >Check out the Website</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <img
+                    src="/images/Visual_Studio_Icon_2019.svg.png"
+                    class="imggg"
+                    style="margin-left: 40px"
+                  />
+                  <h3 class="h333">Visual Studio</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p class="ppp">
+                    A standalone source code editor that runs on Windows, macOS,
+                    and Linux. The top pick for JavaScript and web developers
+                  </p>
+                  <a href="https://visualstudio.microsoft.com/" class="aaa"
+                    >Check out the Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resources">
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <img
+                    src="/images/W3Schools_logo.svg.png"
+                    class="imggg"
+                    style="margin-left: 90px"
+                  />
+                  <h3 class="h333">W3schools code editor</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p class="ppp">
+                    You can edit code and view the result in your browser
+                  </p>
+                  <a href="https://www.w3schools.com/tryit/" class="aaa"
+                    >Check out the Website</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="face face1">
+                <div class="content">
+                  <img
+                    src="/images/Onlinegbd.png"
+                    class="imggg"
+                    style="margin-left: 90px"
+                  />
+                  <h3 class="h333">Onlinegbd code editor</h3>
+                </div>
+              </div>
+              <div class="face face2">
+                <div class="content">
+                  <p class="ppp">
+                    Online GDB is online compiler and debugger . You can
+                    compile, run and debug code with gdb online
+                  </p>
+                  <a href="hhttps://www.onlinegdb.com/" class="aaa"
+                    >Check out the Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/javascript_files/scripy2.js"></script>
+  </body>
+</html>

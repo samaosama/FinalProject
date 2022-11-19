@@ -1,0 +1,113 @@
+body {
+  background: #dddddd;
+  margin: 0;
+  padding: 0;
+  height: min-content;
+  font-family: "Merriweather", serif;
+}
+
+.timer {
+  font-family: sans-serif;
+  display: inline-block;
+  padding: 24px 32px;
+  border-radius: 30px;
+  background: white;
+}
+
+.timer__part {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.timer__btn {
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: #8208e6;
+  cursor: pointer;
+}
+
+.timer__btn--start {
+  background: #00b84c;
+}
+
+.timer__btn--stop {
+  background: #ff0256;
+}
+.message1 {
+  animation: fadeIn ease 50s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: hidden;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.message1 {
+  animation: fadeOut ease 10s;
+}
+
+.message2 {
+  animation: fadeIn ease 5s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: hidden;
+    display: none;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.message2 {
+  animation: fadeOut 30s;
+}
+.message3 {
+  animation: fadeIn ease 5s;
+}
+.message3 {
+  animation: fadeOut ease 40s;
+}
+.message4 {
+  animation: fadeIn ease 5s;
+}
+.message4 {
+  animation: fadeOut ease 60s;
+}
+.message5 {
+  animation: fadeIn ease 5s;
+  display: flex;
+}
+.message5 {
+  animation: fadeOut ease 80s;
+}
+.aaa {
+  margin: 15px 0 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 900;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #333;
+}
+.aaa:hover {
+  background: #333;
+  color: #fff;
+}

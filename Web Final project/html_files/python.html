@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link href="/css_files/style2.css" rel="stylesheet" />
+    <link href="/images/logo.png" type="image/x-icon" rel="icon" />
+    <title>Python</title>
+  </head>
+  <body>
+    <div class="title-box">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+        width="60px"
+        height="60px"
+      />
+      <b><h1 class="title">Python</h1></b>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png"
+        width="60px"
+        height="60px"
+      />
+    </div>
+    <br />
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="#lessons" id="lessons" onclick="course()"
+          >Lessons</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="videos" onclick="videos() ">Videos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" id="resources" onclick="resources()"
+          >Resources</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          href="/html_files/web_categories.html"
+          style="color: black"
+        >
+          Return Back to Main Page</a
+        >
+      </li>
+    </ul>
+    <div class="navbar">
+      <a href="#download">Downloading Python</a>
+      <a href="#PythonPrint">Python Print</a>
+      <a href="#PythonVariable">Python Variable</a>
+      <a href="#PythonDatatypes">Python Data Type</a>
+      <a href="#PythonLists">Python Lists-Tuples-Dictionary</a>
+      <a href="#PythonOperators">Python Operators</a>
+      <a href="#PythonIfElse">Python If and Else</a>
+    </div>
+    <br />
+    <div class="container-lessons" id="container-lessons">
+      <h3 id="download">Downloading Python</h3>
+      <hr />
+      <div class="title">
+        <h4 style="display: inline">In Windows:</h4>
+        <h4 style="margin-left: 515px">In Mac:</h4>
+      </div>
+      <div class="conatiner-download">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VkdkwxGka3M"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <br />
+        <br />
+        <iframe
+          style="margin-left: 90px"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/M323OL6K5vs?start=229"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonPrint">Python Print</h3>
+      <hr />
+      <h4 style="color: blue">print()</h4>
+      <h5>Is a function that is used to show something on the screen</h5>
+      <br />
+      <div class="printcont">
+        <center>
+          <img src="/images/Python Print.png" width="500px" height="200px" />
+        </center>
+        <center>
+          <img src="/images/python output.png" width="500px" height="200px" />
+        </center>
+      </div>
+      <br />
+      <h5>
+        Python is known for its simplicity, so we can use both single
+        <mark><span style="color: blue">' '</span></mark
+        >or double quotes
+        <mark><span style="color: blue">" "</span></mark> inside
+        <mark><span style="color: blue">print()</span></mark>
+      </h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Print.png"
+          width="500px"
+          height="200px"
+        />
+        <img
+          src="/images/Output-Python Print.png"
+          width="500px"
+          height="200px"
+        />
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonVariable">Python Variable</h3>
+      <hr />
+      <h4 style="color: blue">A variable is used to store value</h4>
+      <br />
+      <h5>This is a variable:</h5>
+      <p style="color: blue">a = 20</p>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Variable.png"
+          width="520px"
+          height="250px"
+        />
+        <img
+          src="/images/Output-Python Variable (1).png"
+          width="520px"
+          height="260px"
+        />
+      </div>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Variable2.png"
+          width="520px"
+          height="250px"
+        />
+        <img
+          src="/images/Output-Python Variable2.png"
+          width="520px"
+          height="260px"
+        />
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonDatatypes">Python Data Type</h3>
+      <hr />
+      <h4 style="color: blue">
+        In Python we have different types of data such as: integer, strings,
+        etc.
+      </h4>
+      <br />
+      <h5>
+        <span style="color: blue">int:</span> Integer is a whole number that
+        does not contain any decimals. For ex: 8, 100, etc.
+      </h5>
+      <br />
+      <h5>
+        <span style="color: blue">float:</span> Float is the opposite of an
+        integer, because it is a number that containes a decimal. For ex: 9.6,
+        300.10, etc.
+      </h5>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Data Types.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Data Types.png"
+          width="500px"
+          height="380px"
+          style="margin-left: 90px"
+        />
+      </div>
+      <br />
+      <br />
+      <h5>
+        <span style="color: blue">string:</span> String is a letter, word,
+        sentence or a collection of sentences. For ex: 'Hello World'
+      </h5>
+      <br />
+      <h5>
+        <span style="color: blue">boolean:</span> Boolean consists of two values
+        <span style="color: blue">True</span> and
+        <span style="color: blue">False</span>. It is used to check if the
+        statement is True or False
+      </h5>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Data Types2.png"
+          width="500px"
+          height="370px"
+        />
+        <img
+          src="/images/Output-Python Data Types2.png"
+          width="500px"
+          height="380px"
+          style="margin-left: 90px"
+        />
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonLists">Python Lists-Tuples-Dictionary</h3>
+      <hr />
+      <br />
+      <h4 style="color: blue">Python List:</h4>
+      <br />
+      <h5>A list is a collection of items</h5>
+      <h5>
+        For a list we use brackets <span style="color: blue">[ ]</span> and we
+        separte whats in it using <span style="color: blue">,</span>
+      </h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Lists.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Lists.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <br />
+      <h4 style="color: blue">Python Tuples:</h4>
+      <br />
+      <h5>
+        Tuples are pretty similar to Lists, the difference is between them is
+        that tuples are immutable which means thay are unable to be changed
+      </h5>
+      <br />
+      <h5>
+        For tuples we use parentheses <span style="color: blue">( )</span> and
+        we separte whats in it using <span style="color: blue">,</span>
+      </h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Tuple.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Tuple.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <br />
+      <h4 style="color: blue">Python Dictionary:</h4>
+      <br />
+      <h5>
+        Dictionary is a collection of data that is stored in the form of a
+        key-value pairs
+      </h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Dictionary.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Dictionary.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonOperators">Python Operators</h3>
+      <hr />
+      <br />
+      <h4 style="color: blue">Python Arithmetic Operators</h4>
+      <br />
+      <h5>
+        Arithmetic Operators are operators that take numerical values as their
+        operands and return a single numerical value.
+      </h5>
+      <br />
+      <table class="redTable">
+        <thead>
+          <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="3"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>+</td>
+            <td>Adding operands</td>
+            <td>a + b = 10</td>
+          </tr>
+          <tr>
+            <td>-</td>
+            <td>Subtracts operands</td>
+            <td>a - b = 5</td>
+          </tr>
+          <tr>
+            <td>*</td>
+            <td>Multiplies operands</td>
+            <td>a * b = 20</td>
+          </tr>
+          <tr>
+            <td>/</td>
+            <td>Quotient of division of left operand by right operand</td>
+            <td>a / b = 1.7 (float)</td>
+          </tr>
+          <tr>
+            <td>//</td>
+            <td>Quotient of division of left operand by right</td>
+            <td>a // b = 3 (int)</td>
+          </tr>
+          <tr>
+            <td>%</td>
+            <td>Remainder of division of left operand by right operand</td>
+            <td>a % b = 1</td>
+          </tr>
+          <tr>
+            <td>**</td>
+            <td>Left operand raised to the power of right operand</td>
+            <td>a ** b = 9</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Arithmetic Operators.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Arithmetic Operators.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <br />
+      <br />
+      <h4 style="color: blue">Python Relational Operators</h4>
+      <br />
+      <h5>
+        Relational Operators check the relationship between two operands if they
+        are
+        <span style="color: blue"> True</span> or
+        <span style="color: blue">False</span>
+      </h5>
+      <br />
+      <table class="redTable">
+        <thead>
+          <tr>
+            <th>Operator</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="3"></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>==</td>
+            <td>Equal to</td>
+            <td>(a == b) is False</td>
+          </tr>
+          <tr>
+            <td>!=</td>
+            <td>Not equal to</td>
+            <td>(a != b) is True</td>
+          </tr>
+          <tr>
+            <td>></td>
+            <td>Greater Than</td>
+            <td>(a > b) is True</td>
+          </tr>
+          <tr>
+            <td><</td>
+            <td>Less Than</td>
+            <td>(a < b) is False</td>
+          </tr>
+          <tr>
+            <td>>=</td>
+            <td>Greater than or equal to</td>
+            <td>(a >= b) is True</td>
+          </tr>
+          <tr>
+            <td><=</td>
+            <td>Less than or equal to</td>
+            <td>(a >= b) is False</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Relational Operators.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python Relational Operators.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <hr />
+      <br />
+      <h3 id="PythonIfElse">Python If and Else</h3>
+      <hr />
+      <br />
+      <h4 style="color: blue">Python if Statement</h4>
+      <h5>
+        In many situations, we must see the conditions first then make our
+        decisions. For ex: If the car does not have enough gas, we should go to
+        the gas station. While if it has enough gas, then there is no need to go
+        to the gas station.
+      </h5>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python If Statement.png"
+          width="500px"
+          height="330px"
+        />
+        <img
+          src="/images/Output-Python If Statement.png"
+          width="500px"
+          height="290px"
+        />
+      </div>
+      <h5>In this example the condition was True, so it got executed.</h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python If Statement2.png"
+          width="520px"
+          height="360px"
+        />
+        <img
+          src="/images/Output-Python If Statement2.png"
+          width="500px"
+          height="300px"
+        />
+      </div>
+      <br />
+      <h5>
+        The <span style="color: blue">input()</span> function is used to take a
+        users input. <br />
+        In the code above since the user entered the age as 30, which is greater
+        than 18. So, the condition is True and the statements got exucated.
+      </h5>
+      <br />
+      <h4 style="color: blue">Python Else Statement</h4>
+      <br />
+      <h5>
+        The <span style="color: blue">else</span> function is used when the
+        <span style="color: blue">If()</span> function's condition is False.<br />
+        Which will result in printing the
+        <span style="color: blue">else()</span> function.
+      </h5>
+      <br />
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Else Statement.png"
+          width="540px"
+          height="360px"
+        />
+        <img
+          src="/images/Output-Python Else Statement.png"
+          width="500px"
+          height="300px"
+        />
+      </div>
+      <br />
+      <h4 style="color: blue">Python Elif Statement</h4>
+      <br />
+      <h5>
+        If the condition of if is False, then the condition of the first elif is
+        checked. <br />If the condition of the first elif is True then the
+        statements inside its body are executed,<br />
+        otherwise the next elif condition is checked.
+      </h5>
+      <br />
+      <h5>
+        If the conditions of if and all elif are False, then the body of else is
+        executed.
+      </h5>
+      <div class="printcont">
+        <img
+          src="/images/Input-Python Elif Statement.png"
+          width="540px"
+          height="360px"
+        />
+        <img
+          src="/images/Output-Python Elif Statement.png"
+          width="500px"
+          height="270px"
+        />
+      </div>
+      <hr />
+      <h4 style="color: blue">
+        We are Done Here, Check Out the Videos section to Know More About
+        Python!<br />
+        The Resource section contains all of the websites that can be used to
+        understand the lessons more <br />and practice what you learned.
+      </h4>
+    </div>
+    <div class="container-video" id="container-video">
+      <div class="container">
+        <h4>Python Print</h4>
+        <hr />
+        <div class="videos">
+          <hr />
+          <div class="box">
+            <iframe
+              width="380"
+              height="200"
+              style="
+                border-bottom-left-radius: 11px;
+                border-bottom-right-radius: 11px;
+              "
+              src="https://www.youtube.com/embed/UsCQXe1OHZk?start=82"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h5>Python Print - English</h5>
+          </div>
+          <div class="box">
+            <iframe
+              width="380"
+              height="200"
+              style="
+                border-bottom-left-radius: 11px;
+                border-bottom-right-radius: 11px;
+              "
+              src="https://www.youtube.com/embed/kveb6CkJv2U?start=149"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <h5>الطباعة في لغة البايثون</h5>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h4>Python Variables</h4>
+      <hr />
+      <div class="videos">
+        <hr />
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/cQT33yu9pY8?start=149"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Variable - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/dHcCbxTfwoU?start=20"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Variable - English</h5>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/3a7QvPG3dcs?start=29"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>المتغيرات في لغة بايثون</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/kveb6CkJv2U?start=368"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>المتغيرات في لغة بايثون</h5>
+        </div>
+      </div>
+      <hr />
+      <h4>Python Data Type</h4>
+      <hr />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/afJ2CuFbHKo?start=20"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Data Types - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/gCCVsvgR2KU?start=67"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Data Types - English</h5>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/WlYiYydUc64?start=53"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>أنواع البيانات في لغة البايثون</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/9AcjYnTYtP8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>أنواع البيانات في لغة البايثون</h5>
+        </div>
+      </div>
+      <hr />
+      <h4>Python Lists-Tuples-Dictionary</h4>
+      <hr />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/9OeznAkyQz4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Lists - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/W8KRzm-HUcc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Lists-Tuples - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/daefaLgNkw0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Lists-Tuples-Dictionary - English</h5>
+        </div>
+      </div>
+      <br />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/J_IXZnI3tjE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>المجموعات في لغة البايثون</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/qAPRHqxLZeU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>المجموعات في لغة البايثون</h5>
+        </div>
+      </div>
+      <hr />
+      <h4>Python Operators</h4>
+      <hr />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/v5MR5JnKcZI?start=47"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Operators - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/Pm9FOpOwhlA?start=360"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python Operators - English</h5>
+        </div>
+      </div>
+      <br />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/LZ0-i01pAK4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>العمليات الحسابية</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/-GiewCfXNzI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>العمليات الحسابية</h5>
+        </div>
+      </div>
+      <hr />
+      <h4>Python If Elif Else Type</h4>
+      <hr />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/Zp5MuPOtsSY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python If Elif Else - English</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/qf0sfRZ0hHc?start=11"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python If Elif Else - English</h5>
+        </div>
+      </div>
+      <br />
+      <div class="videos">
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/AE13w4e_lyo?start=19"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python If Elif Else - Arabic</h5>
+        </div>
+        <div class="box">
+          <iframe
+            width="380"
+            height="200"
+            style="
+              border-bottom-left-radius: 11px;
+              border-bottom-right-radius: 11px;
+            "
+            src="https://www.youtube.com/embed/3JIrfPvum7o?start=29"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <h5>Python If Elif Else - Arabic</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container-resources" id="container-resources">
+      <div class="resources">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images//geeksforgeeks.jpg" class="imggg" />
+              <h3 class="h333">GeeksforGeeks</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                GeeksforGeeks is a website that can make you professional in
+                whatever website you are learning. It goes through depth into
+                every explanition and has great exercises.
+              </p>
+              <a
+                href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm"
+                class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images/W3schools.jpg" class="imggg" />
+              <h3 class="h333">W3schools</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                W3schools is a unique website because it focuses on simplicity,
+                uses simple codes witn great explanations and perfect examples.
+                Not only that but it can make you a professional programmer.
+              </p>
+              <a href="https://www.w3schools.com/python/default.asp" class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images/CodesDope.jpg" class="imggg" />
+              <h3 class="h333">CodesDope</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                CodesDope makes the process of learning programming fun and
+                easy. It also containes great explanations activities and
+                problem solving practices.
+              </p>
+              <a
+                href="https://www.codesdope.com/course/python-introduction/"
+                class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="resources">
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images/إدراك.jpg" class="imggg" />
+              <h3 class="h333">إدراك</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                يعد إدراك من المواقع التي تساعد أي مبرمج على تعلم البرمجة بطريقة
+                سهله وبسيطة. والشيء الذي يميزها أن مساراتها تحتوي على ترجمة
+                باللغة العربية والإنجليزية.
+              </p>
+              <a
+                href="https://www.edraak.org/programs/course/pl101-v2018_sp/"
+                class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images/كورسات.jpg" class="imggg" />
+              <h3 class="h333">كورسات</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                يعد إدراك من المواقع التي تساعد أي مبرمج على تعلم البرمجة بطريقة
+                سهله وبسيطة. والشيء الذي يميزها أن مساراتها تحتوي على ترجمة
+                باللغة العربية والإنجليزية.
+              </p>
+              <a
+                href="https://www.coursat.org/course/394/%D8%A5%D8%AA%D9%82%D8%A7%D9%86-%D9%84%D8%BA%D8%A9-python-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9"
+                class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <img src="/images/المعهد العربي.jpg" class="imggg" />
+              <h3 class="h333">المعهد العربي لتعلم لغات البرمجة</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <p class="ppp">
+                يعد المعهد العربي لتعلم لغات البرمجة من المواقع التي تساعد أي
+                مبرمج على تعلم البرمجة بطريقة سهله وبسيطة. والشيء الذي يميزها أن
+                مساراتها تحتوي على ترجمة باللغة العربية والإنجليزية.
+              </p>
+              <a href="http://www.w3arabiconline.com/p/python.html" class="aaa"
+                >Check out the Website</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/javascript_files/javascript2.js"></script>
+  </body>
+</html>
